@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+header .container{
+    width: 1114px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    max-width: 100%;
+}
+header .container h1{
+    font-weight: 300;
+    color: #4d6e80;
+}
+    
+header .container nav ul{
+    padding: 0;
+}
+header .container nav li{
+    display: inline-block;
+}
+
+header .container nav li a{
+    padding: 5px 18px;
+    text-decoration: none;
+    transition: 3s;
+    border: 1px solid transparent;
+    font-size: 14px;
+    color: #7e8487;
+    font-weight: 300;
+}
+
+header .container nav li a:hover{
+    border: 1px solid #b3c8d4;
+}
+
+header .container nav ul li a.active{
+    border: 1px solid #b3c8d4;
+}                                 
+main{
+    width: 100%;
+    position: relative;
+}                            
+main #hero{
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: url("../img/13.jpg");
+    background-repeat: none;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    text-align: center;
+
+}  
+
+main #hero h2{
+    font-size: 60px;
+    line-height: 72px;
+    padding-bottom: 24px;
+    color: #ffffff;
+}
+
+main #hero p{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+main #hero button{
+    color: #ffffff;
+    border-radius: 40px;
+    padding: 15px 50px;
+    font-size: 700;
+    margin-top: 44px;
+    background: #f49712;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+
+main #hero button:hover{
+    background: #f4971291;
+}
+#welcome{
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+
+}
+ #welcome .container{
+     width: 1140px;
+     margin: 0 auto;   
+     text-align: center; 
+     max-width: 100%;
+
+ }
+ #welcome .container h2{
+     font-weight: 300px;
+     font-size: 36px;
+     color: #4e7b8b;
+ }
+ #welcome .container p{
+    color: #7e847e;
+    font-size: 18px;
+    font-weight: 300;
+ }
+ #welcome .container .row{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 50px;
+
+ }
+ #welcome .container .row .cont-c{
+     width: 238px;
+     height: 238px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #welcome .container .row .cont-c h3{
+     color: #ffffff;
+     font-size: 36px;
+     font-weight: 600;
+ }
+ #welcome .container .row .cont-c:nth-child(1){
+    background: url("../img/page1-img-rounded-1.png");
+ }
+ #welcome .container .row .cont-c:nth-child(2){
+    background: url("../img/page1-img-rounded-2.png")
+ }
+ #welcome .container .row .cont-c:nth-child(3){
+    background: url("../img/page1-img-rounded-3.png")
+ }
+#content{
+    
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    color: #7e8487;
+    margin: 0 auto; 
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;   
+    text-align: center; 
+}
+#content .container h5{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #4e7b8b;
+    margin: 58px 0 28px 0;
+    padding: 0;
+
+}
+#content .container h4{
+    font-size: 18px;
+    line-height: 30px;
+    color: #7e8487;
+}
+#content .container .row{
+    display: flex;
+    margin-top: 25px;
+    margin:0 auto;
+    justify-content: center;
+
+}
+#content .container .row .imagenes-c{
+     width: 298px;
+     height: 213px;
+     background-repeat: no-repeat;
+     margin: 2px 15px;
+     
+ }
+      
+#content .container .row .imagenes-c:nth-child(1){
+    background: url("../img/11.jpg");
+    background-repeat: no-repeat;
+    
+}
+#content .container .row .imagenes-c:nth-child(2){
+    background:url("../img/12.jpg");
+    background-repeat: no-repeat;
+}
+#content .container .row .imagenes-c:nth-child(3){
+    background: url("../img/patio.jpg");
+    background-repeat: no-repeat;
+}
+#content .container button{
+    margin-top: 50px;
+    margin-right: 20px;
+    color: #ffffff;
+    border-radius: 40px;
+    padding: 15px 50px;
+    font-size: 120%;
+    margin-top: 44px;
+    background: #f49712;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+
+}
+#content .container button:hover{
+    background: #f4971291;
+}
+#final{
+    width: 100%;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background: #ffffff;
+}
+#final .container{
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#final .container h5{
+    font-weight: 300;
+    font-size: 34px;
+    color: #4e7b8b;
+}
+#final .container p{
+    font-size: 18px;
+    color: #7e8487;
+    font-weight: 300;
+    line-height: 30px;
+}
+#final .container .row{
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#final .container .row .img{
+    margin-top: 20px;
+    background: url("../img/experts-img1.png");
+    width: 98px;
+     height: 98px;
+     margin-left: 46%;
+     background-repeat: no-repeat;
+}
+#final .container .row h3{
+    font-size: 20px;
+    color: #4e7b8b;
+    margin-top: 20px;
+    font-weight: 350;
+}
+#final .container .row .boton button{
+    background: #f49712;
+    margin-top: 0 ;
+    padding: 8px 30px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+    margin-right: 5px;
+    text-align: center;
+}
+#final .container .row .boton button:hover{
+    background: #f4971291;
+}
+footer ul{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+footer ul a{
+    text-decoration: none;
+    font-size: 50px;
+    color:#ffffff;
+}
+footer ul li{
+    text-decoration: none;
+    margin: 2px 15px;
+}
+footer{
+    background: url("../img/footer1.jpg");
+}
+footer #titulo{
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 34px;
+    padding-top: 50px;
+}
+footer #parrafo{
+    color: #ffffff;
+    font-size: 20px;
+}
+footer #final{
+    padding: 0 ;
+    text-align: center;
+    font-size: 13px;
+}
